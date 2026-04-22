@@ -131,7 +131,7 @@ class LoginScreen extends StatelessWidget {
                         providers: [
                           EmailAuthProvider(),
                           GoogleProvider(
-                            clientId: googleClientId, // ✅ fixed
+                            clientId: googleClientId,
                           ),
                         ],
                       ),
